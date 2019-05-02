@@ -2,6 +2,8 @@
 
 # LocalStack Serverless Plugin
 
+This is specifically an MPM fork which enables serverless-localstack for all local sls calls, not just deployment
+
 [Serverless](https://serverless.com/) Plugin to support running against [Localstack](https://github.com/localstack/localstack).
 
 This plugin allows Serverless applications to be deployed and tested on your local machine. Any requests to AWS to be redirected to a running LocalStack instance.
