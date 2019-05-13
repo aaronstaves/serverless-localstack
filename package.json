@@ -1,5 +1,5 @@
 {
-  "name": "serverless-localstack",
+  "name": "mpm-serverless-localstack",
   "version": "0.4.12",
   "description": "Connect Serverless to LocalStack!",
   "main": "src/index.js",
