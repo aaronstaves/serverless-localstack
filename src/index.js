@@ -25,6 +25,7 @@ class LocalstackPlugin {
     this.hooks = {};
     this.AWS_SERVICES = {
       'apigateway': 4567,
+      'logs': 4586,
       'cloudformation': 4581,
       'cloudwatch': 4582,
       'lambda': 4574,
