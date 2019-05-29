@@ -1,0 +1,12 @@
+stages:
+  - publish
+
+NPM Publish:
+  stage: publish
+  image: registry.nmlv.nml.com/lvcd/npm-publish:latest
+  script:
+    - $NPM_USERADD
+    - npm publish
+  when: manual
+  only:
+    - tags
